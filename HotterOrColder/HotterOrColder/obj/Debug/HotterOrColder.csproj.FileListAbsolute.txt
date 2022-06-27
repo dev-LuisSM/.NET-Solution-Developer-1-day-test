@@ -1,0 +1,8 @@
+D:\Mine\C#\HotterOrColder\HotterOrColder\bin\Debug\HotterOrColder.exe.config
+D:\Mine\C#\HotterOrColder\HotterOrColder\bin\Debug\HotterOrColder.exe
+D:\Mine\C#\HotterOrColder\HotterOrColder\bin\Debug\HotterOrColder.pdb
+D:\Mine\C#\HotterOrColder\HotterOrColder\obj\Debug\HotterOrColder.csproj.AssemblyReference.cache
+D:\Mine\C#\HotterOrColder\HotterOrColder\obj\Debug\HotterOrColder.csproj.SuggestedBindingRedirects.cache
+D:\Mine\C#\HotterOrColder\HotterOrColder\obj\Debug\HotterOrColder.csproj.CoreCompileInputs.cache
+D:\Mine\C#\HotterOrColder\HotterOrColder\obj\Debug\HotterOrColder.exe
+D:\Mine\C#\HotterOrColder\HotterOrColder\obj\Debug\HotterOrColder.pdb
