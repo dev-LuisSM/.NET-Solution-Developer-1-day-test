@@ -1,0 +1,95 @@
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\MVC Web API REST.dll.config
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\MVC Web API REST.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\MVC Web API REST.pdb
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\csc.exe
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\csc.exe.config
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\csc.rsp
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\csi.exe
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\csi.exe.config
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\csi.rsp
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.AppContext.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Collections.Immutable.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Console.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Globalization.Calendars.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.IO.Compression.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.IO.FileSystem.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Net.Http.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Net.Sockets.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Reflection.Metadata.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.ValueTuple.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Xml.XPath.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\vbc.exe
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\vbc.exe.config
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\vbc.rsp
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\VBCSCompiler.exe
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\roslyn\VBCSCompiler.exe.config
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\Antlr3.Runtime.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\Microsoft.Web.Infrastructure.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\Newtonsoft.Json.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Helpers.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Mvc.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Optimization.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Razor.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.WebPages.Deployment.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.WebPages.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.WebPages.Razor.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\WebGrease.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Helpers.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Mvc.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Optimization.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Razor.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.WebPages.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.WebPages.Deployment.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.WebPages.Razor.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\Newtonsoft.Json.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\Antlr3.Runtime.pdb
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Web.Helpers.resources.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Web.Mvc.resources.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Web.Optimization.resources.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Web.Razor.resources.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Web.WebPages.resources.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\obj\Debug\MVC Web API REST.csproj.AssemblyReference.cache
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\obj\Debug\MVC Web API REST.csproj.CoreCompileInputs.cache
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\obj\Debug\MVC Web API REST.csproj.CopyComplete
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\obj\Debug\MVC Web API REST.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\obj\Debug\MVC Web API REST.pdb
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Net.Http.Formatting.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Http.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Http.WebHost.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Net.Http.Formatting.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Http.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\System.Web.Http.WebHost.xml
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Web.Http.resources.dll
+D:\Mine\C#\MVC Web API REST\MVC Web API REST\bin\es\System.Web.Http.WebHost.resources.dll
