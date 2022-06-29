@@ -172,15 +172,16 @@ buttonChange.addEventListener('click', () => {
 })
 ```
 
-## How to improve performance or efficiency of the MVC site, API or any other aspects.
+## How to improve performance or efficiency of the MVC site, API or any other aspects. 📈
 To improve the performance of the site we can use lazyload to load large numbers of images (over 100) and use a framework to create components of each object, so that we can display, update and reload (just the component instead of the site) easily.
 
 As for the API, we can separate the images by albums because all the images were in an array, with this, we can call small amounts of images instead of calling them all in the same request.
 
-## Web-user favourite images.
+## Web-user favourite images. 🌟
 We can implement 2 solutions:
 
 **Client-side storage:**
+
 Cookies were the first implementations of client-side storage. But now we can use 2 other options, LocalStorage and IndexedDB.
 
 In this case, we can use it to store in the browser a list of favorite images marked with a star. 
@@ -189,6 +190,7 @@ _Advantage: Easy implementation._
 _Disadvantage: If the user deletes the data from the browser or wants to access the site from another browser or device, the information will be non-existent._
 
 **Databases:**
+
 This would be the best implementation. Following the same logic, when the user clicks on the image star, the image data (id, albumId, title, url and thumbnailsUrl) will be saved but in a database. The big difference will be that we will have to create accounts for the users.
 
 _Advantage: The user will be able to go back to the web and see his favorite images anywhere, only when he creates an account and logs in._
