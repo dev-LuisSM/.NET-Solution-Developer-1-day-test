@@ -30,14 +30,19 @@
             for (let i in paginatedItems) {
                 let txt = paginatedItems[i].title;
                 let imgSrc = paginatedItems[i].thumbnailUrl;
+                let imgHref = paginatedItems[i].url;
 
                 let picture = document.createElement('picture');
+                let image = document.createElement('a');
                 let thumbnail = document.createElement('img');
                 let title = document.createElement('p');
+                image.href = imgHref;
+                image.setAttribute('target', '_blank');
                 title.innerText = txt;
                 thumbnail.src = imgSrc;
 
-                picture.appendChild(thumbnail);
+                image.appendChild(thumbnail);
+                picture.appendChild(image);
                 picture.appendChild(title);
 
                 wrapper.appendChild(picture);
