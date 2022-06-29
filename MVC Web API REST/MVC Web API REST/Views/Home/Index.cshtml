@@ -5,16 +5,24 @@
 <div id="app">
     <h1>My Photo Gallery</h1>
 
-    <div class="gallery"></div>
-    <div class="pageNumbers"></div>
+    <div class="gallery" data-gallery></div>
+    <div class="settings">
+        <label for="itemsQty">Items per page:</label>
+        <input type="number" min="1" max="5000" id="itemsQty" name="itemsQty" data-rows>
+        <input type="button" value="Change quantity per page" data-button/>
+
+        <div class="pageNumbers" data-pageNumbers></div>
+    </div>
 </div>
 
 @section scripts{
     <script>
 
         const photoArray = @Html.Raw(Json.Encode(@Model));
-        const gallery = document.querySelector('.gallery');
-        const pageNumber = document.querySelector('.pageNumbers');
+        const gallery = document.querySelector('[data-gallery]');
+        const pageNumber = document.querySelector('[data-pageNumbers]');
+        const rowPage = document.querySelector('[data-rows]');
+        const buttonChange = document.querySelector('[data-button]');
 
         let current_page = 1;
         let rows = 100;
@@ -78,4 +86,11 @@
 
         DisplayList(photoArray, gallery, rows, current_page);
         SetupPagination(photoArray, pageNumber, rows);
+
+
+        buttonChange.addEventListener('click', () => {
+            rows = rowPage.value;
+            DisplayList(photoArray, gallery, rows, current_page);
+            SetupPagination(photoArray, pageNumber, rows);
+        })
     </script>}

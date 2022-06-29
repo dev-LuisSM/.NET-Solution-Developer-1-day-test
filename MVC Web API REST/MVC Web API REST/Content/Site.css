@@ -1,5 +1,9 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
-
+:root {
+    --main-black: #171717;
+    --main-gray: #383838;
+    --main-white: #fbfbfb;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +18,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: #f6f6f6;
+    background-color: var(--main-white);
     padding: 2rem 5rem;
 }
 
@@ -43,20 +47,35 @@ picture{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .pageNumbers button{
     margin: 0.5rem;
-    background-color: #f6f6f6;
     padding: 0 1rem;
     transition: all 0.3s; 
+    border-radius: 5px;
+    border: 1.8px solid var(--main-black);
+    background: var(--main-white);
 }
 
 button.active{
-    background: #383838;
-    border: none;
-    color: #f6f6f6;
+    background: var(--main-gray);
+    color: var(--main-white);
+    border: 1px solid transparent;
+}
+
+input[type=number]{
+    width: 4rem;
+    outline: none;
+}
+
+input[type=button]{
+    padding: 0 0.5rem;
+    outline: none;
+    border-radius: 5px;
+    border: 1.8px solid var(--main-black);
+    background: var(--main-white);
 }
 
 footer {
