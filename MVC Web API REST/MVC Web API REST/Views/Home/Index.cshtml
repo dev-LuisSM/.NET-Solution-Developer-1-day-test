@@ -2,41 +2,75 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div id="app">
+    <h1>My Photo Gallery</h1>
+
+    <div class="gallery"></div>
+    <div class="pageNumbers"></div>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>From Api</h2>
-        <ul>
-            @foreach (var photo in Model)
-            {
-                <li>@photo.id</li>
-                <li>@photo.albumId</li>
-                <li>@photo.title</li>
-                <li>@photo.url</li>
-                <li>@photo.thumbnailUrl</li>
+@section scripts{
+    <script>
 
-                <br />
+        const photoArray = @Html.Raw(Json.Encode(@Model));
+        const gallery = document.querySelector('.gallery');
+        const pageNumber = document.querySelector('.pageNumbers');
+
+        let current_page = 1;
+        let rows = 100;
+
+        const DisplayList = (items, wrapper, rows_per_page, page) => {
+            wrapper.innerHTML = "";
+            page--;
+
+            let start = rows_per_page * page;
+            let end = start + rows_per_page;
+            let paginatedItems = items.slice(start, end);
+
+            for (let i in paginatedItems) {
+                let txt = paginatedItems[i].title;
+                let imgSrc = paginatedItems[i].thumbnailUrl;
+
+                let picture = document.createElement('picture');
+                let thumbnail = document.createElement('img');
+                let title = document.createElement('p');
+                title.innerText = txt;
+                thumbnail.src = imgSrc;
+
+                picture.appendChild(thumbnail);
+                picture.appendChild(title);
+
+                wrapper.appendChild(picture);
             }
+        };
 
-        </ul>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+        const PaginationButton = (page, items) => {
+            let button = document.createElement('button');
+            button.innerText = page;
+
+            if (current_page == page) button.classList.add('active');
+            button.addEventListener('click', function () {
+                current_page = page;
+                DisplayList(items, gallery, rows, current_page);
+                let current_btn = document.querySelector('button.active');
+                current_btn.classList.remove('active');
+
+                button.classList.add('active');
+            });
+
+            return button;
+        }
+
+        const SetupPagination = (items, wrapper, rows_per_page) => {
+            wrapper.innerHTML = "";
+
+            let page_count = Math.ceil(items.length / rows_per_page);
+            for (let i = 1; i < page_count + 1; i++) {
+                let btn = PaginationButton(i, items);
+                wrapper.appendChild(btn);
+            }
+        }
+
+        DisplayList(photoArray, gallery, rows, current_page);
+        SetupPagination(photoArray, pageNumber, rows);
+    </script>}

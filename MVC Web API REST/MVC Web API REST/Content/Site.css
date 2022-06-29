@@ -1,30 +1,69 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+    transition: all 0.3s;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #f6f6f6;
+    padding: 2rem 5rem;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+h1{
+    font-size: xxx-large;
+    font-weight: 600;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    transition: all 0.3s; 
 }
 
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-    background-color: #777;
-    border-color: #fff
+picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    width: 200px;
+    text-align: center;
+}
+
+.pageNumbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pageNumbers button{
+    margin: 0.5rem;
+    background-color: #f6f6f6;
+    padding: 0 1rem;
+    transition: all 0.3s; 
+}
+
+button.active{
+    background: #383838;
+    border: none;
+    color: #f6f6f6;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+    font-size: small;
+    width: 100%;
 }
