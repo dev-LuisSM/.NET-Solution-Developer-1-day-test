@@ -97,11 +97,11 @@ SELECT Salesperson.SP_Name as Salespeson,
 
 -- Alternative way how to evaluate sales person --
 
--- Salesperson who has the largest sale in 2019
-SELECT Salesperson.SP_Name as Salespeson, 
-  MAX(Amount) as Largest_sale,
+-- Salesperson who has the largest sale in 2019  
+SELECT Salesperson.SP_Name as Salespeson,
+  Amount as Largest_sale,
   Order_Date
   FROM (Orders 
-  INNER JOIN Salesperson ON Orders.Salesperson_ID = Salesperson.ID_Salesperson)
+  INNER JOIN Salesperson ON Orders.Salesperson_ID = 	Salesperson.ID_Salesperson)
   WHERE Order_Date BETWEEN '2019-01-01' and '2019-12-31'
-  GROUP BY Amount DESC;
+  ORDER BY Amount DESC;
